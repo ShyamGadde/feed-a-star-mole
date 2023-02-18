@@ -13,19 +13,19 @@ const getHungryInterval = () => Date.now() + HUNGRY_INTERVAL;
 
 const moles = [
   {
-    status: "sad",
+    status: "hungry",
     next: getSadInterval(),
     king: false,
     node: document.getElementById("hole-0")
   },
   {
-    status: "sad",
+    status: "leaving",
     next: getSadInterval(),
     king: false,
     node: document.getElementById("hole-1")
   },
   {
-    status: "sad",
+    status: "hungry",
     next: getSadInterval(),
     king: false,
     node: document.getElementById("hole-2")
@@ -37,19 +37,19 @@ const moles = [
     node: document.getElementById("hole-3")
   },
   {
-    status: "sad",
+    status: "leaving",
     next: getSadInterval(),
     king: false,
     node: document.getElementById("hole-4")
   },
   {
-    status: "sad",
+    status: "hungry",
     next: getSadInterval(),
     king: false,
     node: document.getElementById("hole-5")
   },
   {
-    status: "sad",
+    status: "fed",
     next: getSadInterval(),
     king: false,
     node: document.getElementById("hole-6")
@@ -57,17 +57,17 @@ const moles = [
   {
     status: "sad",
     next: getSadInterval(),
-    king: false,
+    king: true,
     node: document.getElementById("hole-7")
   },
   {
-    status: "sad",
+    status: "leaving",
     next: getSadInterval(),
     king: false,
     node: document.getElementById("hole-8")
   },
   {
-    status: "sad",
+    status: "hungry",
     next: getSadInterval(),
     king: false,
     node: document.getElementById("hole-9")
