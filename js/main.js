@@ -128,10 +128,10 @@ const feed = e => {
   mole.next = getSadInterval();
   mole.node.children[0].classList.toggle("hungry", false);
   if (mole.king) {
-    mole.node.children[0].src = "../assets/images/king-mole-fed.png";
+    mole.node.children[0].src = "./assets/images/king-mole-fed.png";
     score += 20;
   } else {
-    mole.node.children[0].src = "../assets/images/mole-fed.png";
+    mole.node.children[0].src = "./assets/images/mole-fed.png";
     score += 10;
   }
 
